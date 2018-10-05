@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon>
+</head>
+<body>
+  <div class="header">
+    <h2>Calcy. . .</h2>
+  </div>
+
+  <div class="container">
+    <div class="calculator">
+      <div class="display">
+        <textarea name="operation" placeholder="0" disabled="disabled" class="display_box"></textarea>
+        <!-- <div class="display_box" contenteditable="true" data-text="0"></div> -->
+        <textarea name="solution" disabled="disabled" class="display_box"></textarea>
+        <!-- <div class="display_box" contenteditable="true" data-text=""></div> -->
+      </div>
+
+      <div id="buttons">
+        <div class="numbers">
+          <button type="button" name="num" class = "num" data-key="103">7</button>
+          <button type="button" name="num" class = "num" data-key="104">8</button>
+          <button type="button" name="num" class = "num" data-key="105">9</button>
+          <button type="button" name="num" class = "num" data-key="100">4</button>
+          <button type="button" name="num" class = "num" data-key="101">5</button>
+          <button type="button" name="num" class = "num" data-key="102">6</button>
+          <button type="button" name="num" class = "num" data-key="97">1</button>
+          <button type="button" name="num" class = "num" data-key="98">2</button>
+          <button type="button" name="num" class = "num" data-key="99">3</button>
+          <button type="button" name="num" class = "num" id="dot" data-key="110">.</button>
+          <button type="button" name="num" class = "num" data-key="96">0</button>
+          <button type="button" name="clear" class = "num" id="clear" data-key="67">CE</button>
+        </div>
+
+        <div class="operators">
+          <!-- <button type="button" name="operand">clear</button> -->
+          <button type="button" name="operand" class="operand" data-key="111">/</button>
+          <button type="button" name="operand" class="operand" data-key="106">*</button>
+          <button type="button" name="operand" class="operand" data-key="109">-</button>
+          <button type="button" name="operand" class="operand" data-key="107">+</button>
+          <button type="button" name="operand" class="operand" id="equal_to" data-key="13">=</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="information">
+      <p>Welcome to calcy. A basic <i><b>Calculator</b></i> made with HTML and Vanila JavaScript. </p>
+      <p>Operations can be performed on <b><i>screen</b></i>, or with the <b><i>NumberPad</b></i>.
+         Press <b>C</b>
+        on your keyboard to reset the application.</p>
+      <!-- <p>Do note that some browsers (firefox), interups the <b>/</b> Key for
+        special certain browser operations.</p> -->
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Made by Franklyn Afeso. <a href="http://github.com/afeso">Find me on gitHub</a></p>
+  </div>
+
+<script src="script.js"></script>
+</body>
+
+<html>
