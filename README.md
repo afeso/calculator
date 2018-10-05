@@ -1,5 +1,7 @@
 # calculator
-Creating a basic Calculator WebPage using HTML, CSS and Vanilla Js
+Creating a basic Calculator WebPage using HTML, CSS and Vanilla Js.
+
+finalized result can be found here https://afeso.github.io/calculator/
 
 # 4/oct/2018.
 * it works.
